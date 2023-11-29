@@ -1,0 +1,151 @@
+@import url(font.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter-Regular';
+}
+
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+    /* border: 5px solid red; */
+}
+
+.nav{
+    background: black;
+}
+
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.nav__content-link{
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter-Bold';
+}
+.nav__content-item{
+    color: white;
+    font-size: 25px;
+    
+}
+.nav__content-list{
+    display: flex;
+    column-gap: 75px;
+}
+.header{
+    background: url(../img/header__bg.png) no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Inter-Bold';
+    font-size: 40px;
+    padding-bottom: 145px;
+}
+.header__link{
+    font-family: 'Inter-Bold';
+    font-size: 35px;
+    color: rgba(0, 0, 0, 1);
+    background: white;
+    padding: 10px 24px;
+    border-radius: 10px;
+    
+}
+.about{
+    padding: 30px 0 112px;
+    background: rgba(14, 28, 37, 1);
+}
+.about__title{
+    color: white;
+    font-family:'Inter-Bold';
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.about__content{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about__content-right{
+    width: 466px
+}
+.about__content-title{
+    color: white;
+    font-size: 35px;
+    padding: 50px 0 64px;
+    
+
+}
+.about__content-text{
+    color: white;
+    text-align: justify;
+    font-size: 18px;
+}
+.works{
+    padding: 43px 0 70px;
+    background: rgba(92, 107, 129, 1);
+}
+.works__title{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 62px;
+    font-family: 'Inter-Bold';
+}
+.works__content-card{
+    width: 312px;
+    background: rgba(177, 43, 6, 1);
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+.works__content-img{
+    padding: 15px 15px 20px 15px;
+}
+.works__content-title{
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter-Bold';
+    padding-bottom: 21px;
+}
+.works__content-text{
+    color: white;
+    width: 264px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-bottom: 27px;
+    
+}
+.works__content-link{
+    color: black;
+    background: white;
+    padding: 10px 24px;
+    border-radius: 10px;
+    font-family: 'Inter-Bold';
+    display: inline-block;
+    margin-bottom: 27px;
+    
+    
+    
+    
+}
+.works__content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 126px;
+    row-gap: 30px;
+    
+}
